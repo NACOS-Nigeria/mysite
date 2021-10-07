@@ -1,0 +1,87 @@
+body{
+  background: url(../img/picadd.jpg) no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.sapackages-gulopan{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 30%;
+  padding: 0 20px;
+}
+
+.genstasel-nackages {
+  display: flex;
+  max-width: 260px;
+  margin: 0 auto;
+  background: rgba(12, 12, 12, 0.84);
+  padding: 27px;
+  border-radius: 34px;
+  box-shadow: 0 0 8px rgba(19, 18, 18, 0.3);
+}
+
+.vitumike-abovesad{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1%;
+}
+
+.vitumike-abovesad,
+.kedetaqen{
+  width: 110%;
+}
+
+.vitumike-abovesad .bkackeogun, .kedetaqen textarea {
+  margin: 8px 0;
+  background: rgba(10, 10, 10, 0);
+  border: 0px;
+  border-bottom: 2px solid #a5d1ea;
+  padding: 8px;
+  color: #81e9f5;
+  width: 100%;
+}
+
+.kedetaqen textarea{
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #b0ddf1;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #b0ddf1;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #b0ddf1;
+}
+
+.detadsav {
+  background: #0b7bb3;
+  text-align: center;
+  padding: 14px;
+  float:left;
+  width:90%;
+  border-radius: 3px;
+  color: #eae7e7;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+  .genstasel-nackages{
+  flex-direction: column;
+  }
+  .kedetaqen textarea{
+  height: 80px;
+  }
+  .vitumike-abovesad,
+  .kedetaqen{
+  width: 100%;
+  }
+}

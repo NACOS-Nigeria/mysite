@@ -1,0 +1,27 @@
+{% extends 'main/nasledovanie.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="{% static 'news/css/add.css' %}">
+<div class="sapackages-gulopan">
+    <form method="post">{% csrf_token %}
+         <div class="genstasel-nackages">
+                <div class="vitumike-abovesad">
+                    {{form.name}}
+                    {{form.fone}}
+
+                    <button class="btn btn-info" type="submit">Заказать звонок</button>
+                    <span>{{error}}</span>
+                </div>
+         </div>
+    </form>
+</div>
+{% endblock %}
+
+
+
+
+

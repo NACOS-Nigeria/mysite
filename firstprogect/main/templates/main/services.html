@@ -1,0 +1,102 @@
+{% extends 'main/nasledovanie.html' %}
+
+
+
+{% block content %}
+{% load static %}
+		<section class="page-banner-section services">
+			<div class="container">
+				<div class="page-banner-box">
+					<h1>Цены на услуги</h1>
+					<a href="{% url 'addcall' %}">Заказать звонок</a>
+				</div>
+			</div>
+		</section>
+		<!-- End page-banner section -->
+
+		<!-- services-section
+			================================================== -->
+		<section class="moving-services-section">
+			<div class="container">
+				<div class="title-section">
+					<h1>Цены и тарифы</h1>
+					<h6>*Указана ориентровочная стоимость услуг, для получения точной информации свяжитесь с менеджером</h6>
+				</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="moving-services-post">
+								<div class="inner-post">
+									<h1>Услуги двух грузчиков <br>
+										от 350 руб/час</h1>
+								</div>
+								<div class="hover-services">
+									<img src="{% static 'main/img/upload/others/pic1.jpg' %}" alt="">
+									<div class="inner-hover">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="moving-services-post">
+								<div class="inner-post">
+									<h1>Аренда грузового фургона <br>до 14 м.куб от 750 руб/час</h1>
+								</div>
+								<div class="hover-services">
+									<img src="{% static 'main/img/upload/others/pic2.jpg' %}" alt="">
+									<div class="inner-hover">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="moving-services-post">
+								<div class="inner-post">
+									<h1>Аренда грузового фургона <br>до 20 м.куб от 1000 руб/час</h1>
+								</div>
+								<div class="hover-services">
+									<img src="{% static 'main/img/upload/others/pic3.jpg' %}" alt="">
+									<div class="inner-hover">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="moving-services-post">
+								<div class="inner-post">
+									<h1>Аренда грузовой фуры <br>до 20 тонн от 1250 руб/час</h1>
+								</div>
+								<div class="hover-services">
+									<img src="{% static 'main/img/upload/others/pic4.png' %}" alt="">
+									<div class="inner-hover">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="moving-services-post">
+								<div class="inner-post">
+									<h1>Перевозка пианино <br>от 2000 руб за работу </h1>
+								</div>
+								<div class="hover-services">
+									<img src="{% static 'main/img/upload/others/pic5.jpg' %}" alt="">
+									<div class="inner-hover">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="moving-services-post">
+								<div class="inner-post">
+									<h1>Вывоз и утилитзация мусора <br>до 14 м.куб от 3000 руб  </h1>
+								</div>
+								<div class="hover-services">
+									<img src="{% static 'main/img/upload/others/pic6.jpg' %}" alt="">
+									<div class="inner-hover">
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</section>
+{%endblock%}
